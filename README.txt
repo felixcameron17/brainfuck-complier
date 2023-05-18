@@ -14,7 +14,7 @@ the commands are as follows:
 - decrement the memory cell value by 1
 . output the the memory cell that the pointer is on
 , takes an input and overrides the current cell with the input
-[ used to indicate the beginning of a loop
+[ used to indicate the beginning of a loop, will jump to its corresponding ']' bracket if the cell selected is currently zero
 ] moves the pointer back to the open bracket as long as the memory cell selected doesnt equal zero. otherwise the loop is broken
 
 any other text is treated as comment
